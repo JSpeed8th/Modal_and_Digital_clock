@@ -30,7 +30,7 @@ function suddenlyAppear() {
   subWrapper.style.boxShadow = '0 12px 5px #17202A';
 
   // Creating & Adding Elements into SubWrapper
-  var exit = document.createElement('button');
+  var exit = document.createElement('a');
   subWrapper.appendChild(exit);
 
   var subscribe = document.createElement('h1');
@@ -59,7 +59,7 @@ function suddenlyAppear() {
 
 
   // Styling Name Text
-  nameText.textContent = 'first/last name';
+  nameText.textContent = 'first/last name:';
   nameText.style.textAlign = 'center';
 
   // Styling Name Insert
@@ -74,7 +74,7 @@ function suddenlyAppear() {
   nameInsert.style.display = 'block';
 
   // Styling Email Text
-  emailText.textContent = 'email';
+  emailText.textContent = 'email:';
   emailText.style.textAlign = 'center';
 
   // Styling Email Insert
@@ -97,19 +97,22 @@ function suddenlyAppear() {
   submit.style.backgroundColor = '#D5D8DC';
 
   // Styling Exit
-  exit.style.height = '20px';
+  exit.style.height = '16px';
   exit.style.width = '20px';
   exit.style.backgroundColor = '#641E16';
   exit.style.float = 'right';
   exit.style.fontSize = '12px';
-  exit.textContent = 'x';
+  exit.textContent = 'X';
   exit.style.textAlign = 'center';
   exit.style.borderRadius = '100%';
   exit.style.border = 'none';
-  exit.style.color = '#C0392B';
-  exit.style.paddingBottom = '3px';
+  // exit.style.paddingTop = '6px';
   exit.style.boxShadow = '0 2px 4px #420519';
   exit.style.margin = '5px';
+  exit.innerHTML = '<a href=../Digital_clock/digital_clock.html>X<a>';
+  exit.style.textDecoration = 'none';
+  exit.style.color = '#C0392B';
+
 }
 
 
