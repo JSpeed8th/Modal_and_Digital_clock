@@ -121,7 +121,7 @@ function suddenlyAppear() {
 // FUNCTION
 
 function start() {
-  setTimeout(suddenlyAppear, 1000)
+  setTimeout(suddenlyAppear, 3000)
 }
 
 window.addEventListener('load', start);
