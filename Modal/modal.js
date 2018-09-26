@@ -26,7 +26,7 @@ function suddenlyAppear() {
   subWrapper.style.top = '20%';
   subWrapper.style.left = '35%';
   subWrapper.style.borderRadius = '10px';
-  subWrapper.style.padding = '1% 2% 0 2%';
+  // subWrapper.style.padding = '1% 2% 0 2%';
   subWrapper.style.boxShadow = '0 12px 5px #17202A';
 
   // Creating & Adding Elements into SubWrapper
@@ -53,14 +53,13 @@ function suddenlyAppear() {
 
   // Styling Subscribe
   subscribe.textContent = 'Subscribe';
-  // subscribe.style.border = '2px solid purple';
   subscribe.style.textAlign = 'center';
   subscribe.style.marginBottom = '10%';
   subscribe.style.fontSize = '3em';
 
+
   // Styling Name Text
   nameText.textContent = 'first/last name';
-  // nameText.style.border = '2px solid green';
   nameText.style.textAlign = 'center';
 
   // Styling Name Insert
@@ -76,7 +75,6 @@ function suddenlyAppear() {
 
   // Styling Email Text
   emailText.textContent = 'email';
-  // emailText.style.border = '2px solid green';
   emailText.style.textAlign = 'center';
 
   // Styling Email Insert
@@ -111,6 +109,7 @@ function suddenlyAppear() {
   exit.style.color = '#C0392B';
   exit.style.paddingBottom = '3px';
   exit.style.boxShadow = '0 2px 4px #420519';
+  exit.style.margin = '5px';
 }
 
 
