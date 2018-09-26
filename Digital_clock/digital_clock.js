@@ -70,3 +70,4 @@ clock.style.borderBottom = '5px solid';
 clock.style.display = 'inline-block';
 clock.style.borderRadius = '2px';
 clock.style.padding = '2%';
+clock.style.display = 'inline-flex';
